@@ -6,6 +6,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { RegistrationComponent } from './dashboard/registration/registration.component';
 import { RegListComponent } from './dashboard/reg-list/reg-list.component';
 import { UserDetailComponent } from './dashboard/user-detail/user-detail.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { UserDetailComponent } from './dashboard/user-detail/user-detail.compone
     UserDetailComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
