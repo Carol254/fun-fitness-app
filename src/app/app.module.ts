@@ -7,6 +7,7 @@ import { RegistrationComponent } from './dashboard/registration/registration.com
 import { RegListComponent } from './dashboard/reg-list/reg-list.component';
 import { UserDetailComponent } from './dashboard/user-detail/user-detail.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     DashboardComponent,
     RegistrationComponent,
     RegListComponent,
-    UserDetailComponent
+    UserDetailComponent,
   ],
   imports: [
     BrowserModule,
